@@ -63,9 +63,15 @@ function clea_formation_enqueue_styles() {
 	// feuille de style pour l'impression
 	wp_enqueue_style( 'print', get_stylesheet_directory_uri() . '/css/print.css', array(), false, 'print' );
 
+
+
 }
 
 function clea_formation_enqueue_scripts() {
+
+	// embed font awesome 
+	wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/af5aa524e2.js', false );
+
 
 }
 
